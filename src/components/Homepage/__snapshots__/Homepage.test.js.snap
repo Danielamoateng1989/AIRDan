@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container-holder"
+  >
+    <h1>
+      Airlines
+    </h1>
+    <div
+      class="wrapper"
+    >
+      <h4>
+        Filter by Airlines
+      </h4>
+    </div>
+    <form
+      class="form"
+    >
+      <div
+        class="one_world_container"
+      >
+        <input
+          type="checkbox"
+        />
+        <label
+          class="one_world_label"
+        >
+          One world
+        </label>
+      </div>
+      <div
+        class="sky_team_container"
+      >
+        <input
+          type="checkbox"
+        />
+        <label
+          class="sky_team_label"
+        >
+          Sky Team
+        </label>
+      </div>
+      <div
+        class="star_alliance_container"
+      >
+        <input
+          type="checkbox"
+        />
+        <label
+          class="star_alliance_label"
+        >
+          Star Alliance
+        </label>
+      </div>
+    </form>
+    <div>
+      <ul
+        class="box-wrapper"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

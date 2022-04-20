@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f9fafb;
+  font-family: "Helvetica Neue";
+}
+
+nav {
+  height: 62px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(129, 129, 129, 0.2);
+  box-shadow: 0 1px 2px 0 rgba(129, 129, 129, 0.2);
+}
+
+nav .logo {
+  padding: 19px 16px 19px ;
+  display: flex;
+}
+
+
+.wrapper {
+  display: flex;
+  margin-top: 73px;
+  margin-bottom: 23px;
+}
+
+h1 {
+  margin-top: 67px;
+}
+
+
+img {
+  width: 32px;
+  height: 32px;
+}
+
+.filtered-alliances-container {
+  display: flex;
+  margin-bottom: 56px;
+}
+
+.filtered-alliances-container button {
+  font-family: "Helvetica Neue"
+}
+
+button {
+  border: none;
+  background: transparent
+}
+
+.container-holder{
+  padding: 0 16px;
+}
+.box-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-wrapper .box {
+  border: 1px solid transparent;
+  background-color: #fff;
+  flex: calc(50% - 16px);
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+  padding: 10px;
+  box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04), 0 3px 6px 0 rgba(25, 32, 36, 0.16);
+  border-radius: 8px;
+  margin: 8px;
+}
+.box .box-item {
+    display: flex;
+    align-items: center;
+}
+.box .box-item .img {
+  margin-right: 18px;
+}
+.box .box-item .content .alliance_name {
+  font-weight: 600;
+  
+}
+.box .box-item .content .more-info {
+  display: none;
+}
+.box .box-item .content .more-info > * {
+  display: table;
+  
+}
+.box .box-item .content .more-info a {
+  color: rgb(100, 87, 87);
+  text-decoration: none;
+  word-break: break-all;
+
+}
+
+.alliance_site {
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: normal;
+  color: #5a6872;
+}
+
+
+.box-wrapper .box:hover {
+  border-color: #363f45;
+}
+.box-wrapper .box:hover .box-item .content .more-info {
+  display: inline-block;
+  line-height: 22px;
+}
+
+.alliance_name {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-weight: bold;
+  color: #192024;
+
+}
+
+
+@media(min-width:768px) {
+  .box-wrapper .box {
+    height: 210px;
+    padding: 20px;
+    
+    
+}
+  .content {
+    font-size: 16px;
+}
+}
+@media(min-width: 768px){
+  .container-holder{
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+}
+
+
+
+@media(min-width: 992px){
+    .container-holder{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .box-wrapper .box {
+    flex-basis: calc(33.333% - 16px);
+    max-width: calc(33.333% - 16px);
+
+
+}
+}
+@media(min-width: 1200px){
+  .box-wrapper .box {
+
+    max-width: calc(25% - 16px);
+  }
+}
+@media(min-width: 1400px){
+  .container-holder {
+    padding-left: 94px;
+    padding-right: 94px;
+ }
+}
+
+h1 {
+  font-family: "Helvetica Neue";
+  font-size: 44px;
+  font-weight: 900;
+  color: #000000
+}
+
+h4 {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-weight: bold;
+  color: #192024;
+}
+p {
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  font-weight: normal;
+  color: #192024;
+}
+
+form {
+  display: flex;
+  margin-bottom: 56px;
+}
+
+.one_world_container {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+
+}
+
+.one_world_label {
+  padding: 10px
+}
+
+.sky_team_label{
+  padding: 10px
+}
+
+.sky_team_container {
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.star_alliance_container {
+  display: flex;
+  align-items: center;
+}
+
+.star_alliance_label {
+  padding: 10px 10px;
+}
+
+
+
+
+label {
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  font-weight: normal;
+  color: #192024
+}
+
+.alliance_phone_number {
+  padding: 10px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
